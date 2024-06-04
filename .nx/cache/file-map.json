@@ -1,0 +1,540 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.1.2",
+  "deps": {
+    "nx": "^19.1.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "base": [
+        {
+          "file": "apps/base/.eslintrc.cjs",
+          "hash": "18224317155734308275"
+        },
+        {
+          "file": "apps/base/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "apps/base/README.md",
+          "hash": "11460966644741158790"
+        },
+        {
+          "file": "apps/base/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "apps/base/package.json",
+          "hash": "14245091773667327019",
+          "deps": [
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@typescript-eslint/eslint-plugin@7.12.0",
+            "npm:@typescript-eslint/parser@7.12.0",
+            "npm:@vitejs/plugin-react@4.3.0",
+            "npm:eslint@8.57.0",
+            "npm:eslint-plugin-react-hooks@4.6.2",
+            "npm:eslint-plugin-react-refresh@0.4.7",
+            "npm:typescript@5.4.5",
+            "npm:vite@5.2.12",
+            "@shared/ui",
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1"
+          ]
+        },
+        {
+          "file": "apps/base/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "apps/base/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "apps/base/src/App.tsx",
+          "hash": "12038585815149692161"
+        },
+        {
+          "file": "apps/base/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "apps/base/src/index.css",
+          "hash": "957896817323665666"
+        },
+        {
+          "file": "apps/base/src/main.tsx",
+          "hash": "12948679595907665671"
+        },
+        {
+          "file": "apps/base/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/base/tsconfig.json",
+          "hash": "18422650984171373399"
+        },
+        {
+          "file": "apps/base/tsconfig.node.json",
+          "hash": "4208030242441905014"
+        },
+        {
+          "file": "apps/base/vite.config.ts",
+          "hash": "13090069667700328850"
+        }
+      ],
+      "@shared/ui": [
+        {
+          "file": "libs/shared-ui/.dumirc.ts",
+          "hash": "17444867292723255572"
+        },
+        {
+          "file": "libs/shared-ui/.editorconfig",
+          "hash": "13703402377384543976"
+        },
+        {
+          "file": "libs/shared-ui/.eslintrc.js",
+          "hash": "14593598025063054036"
+        },
+        {
+          "file": "libs/shared-ui/.fatherrc.ts",
+          "hash": "2083392038628856136"
+        },
+        {
+          "file": "libs/shared-ui/.gitignore",
+          "hash": "11822792754702370101"
+        },
+        {
+          "file": "libs/shared-ui/.husky/commit-msg",
+          "hash": "17144066966586681733"
+        },
+        {
+          "file": "libs/shared-ui/.husky/pre-commit",
+          "hash": "13469207043343598078"
+        },
+        {
+          "file": "libs/shared-ui/.prettierignore",
+          "hash": "812822331360689672"
+        },
+        {
+          "file": "libs/shared-ui/.prettierrc.js",
+          "hash": "10282910989665844537"
+        },
+        {
+          "file": "libs/shared-ui/.stylelintrc",
+          "hash": "2028099009294596368"
+        },
+        {
+          "file": "libs/shared-ui/LICENSE",
+          "hash": "9861757144007919891"
+        },
+        {
+          "file": "libs/shared-ui/README.md",
+          "hash": "9027589873324370492"
+        },
+        {
+          "file": "libs/shared-ui/docs/guide.md",
+          "hash": "16876105092859325206"
+        },
+        {
+          "file": "libs/shared-ui/docs/index.md",
+          "hash": "14408276433541426960"
+        },
+        {
+          "file": "libs/shared-ui/package.json",
+          "hash": "17488946832061480443",
+          "deps": [
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1",
+            "npm:@commitlint/cli@17.8.1",
+            "npm:@commitlint/config-conventional@17.8.1",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@umijs/lint@4.2.9",
+            "npm:dumi@2.3.6",
+            "npm:eslint@8.57.0",
+            "npm:father@4.4.4",
+            "npm:husky@8.0.3",
+            "npm:lint-staged@13.3.0",
+            "npm:prettier@2.8.8",
+            "npm:prettier-plugin-organize-imports@3.2.4",
+            "npm:prettier-plugin-packagejson@2.5.0",
+            "npm:stylelint@14.16.1"
+          ]
+        },
+        {
+          "file": "libs/shared-ui/src/Foo/index.md",
+          "hash": "1977599226873525728"
+        },
+        {
+          "file": "libs/shared-ui/src/Foo/index.tsx",
+          "hash": "5242151423013478098"
+        },
+        {
+          "file": "libs/shared-ui/src/index.ts",
+          "hash": "6743162662075431884"
+        },
+        {
+          "file": "libs/shared-ui/tsconfig.json",
+          "hash": "7375261684273690226"
+        }
+      ],
+      "portal": [
+        {
+          "file": "apps/portal/.eslintrc.cjs",
+          "hash": "18224317155734308275"
+        },
+        {
+          "file": "apps/portal/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "apps/portal/README.md",
+          "hash": "11460966644741158790"
+        },
+        {
+          "file": "apps/portal/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "apps/portal/package.json",
+          "hash": "8998271998180069831",
+          "deps": [
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@typescript-eslint/eslint-plugin@7.12.0",
+            "npm:@typescript-eslint/parser@7.12.0",
+            "npm:@vitejs/plugin-react@4.3.0",
+            "npm:eslint@8.57.0",
+            "npm:eslint-plugin-react-hooks@4.6.2",
+            "npm:eslint-plugin-react-refresh@0.4.7",
+            "npm:typescript@5.4.5",
+            "npm:vite@5.2.12",
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1"
+          ]
+        },
+        {
+          "file": "apps/portal/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "apps/portal/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "apps/portal/src/App.tsx",
+          "hash": "4238939368060857942"
+        },
+        {
+          "file": "apps/portal/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "apps/portal/src/index.css",
+          "hash": "957896817323665666"
+        },
+        {
+          "file": "apps/portal/src/main.tsx",
+          "hash": "12948679595907665671"
+        },
+        {
+          "file": "apps/portal/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/portal/tsconfig.json",
+          "hash": "14032556756270793734"
+        },
+        {
+          "file": "apps/portal/tsconfig.node.json",
+          "hash": "4208030242441905014"
+        },
+        {
+          "file": "apps/portal/vite.config.ts",
+          "hash": "7008402861428644331"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".dumi/tmp/core/EmptyRoute.tsx",
+        "hash": "5533760679822089719"
+      },
+      {
+        "file": ".dumi/tmp/core/defineApp.ts",
+        "hash": "16282908595078405518"
+      },
+      {
+        "file": ".dumi/tmp/core/exportStaticRuntimePlugin.ts",
+        "hash": "15714904400286099463"
+      },
+      {
+        "file": ".dumi/tmp/core/helmet.ts",
+        "hash": "4061726886337183935"
+      },
+      {
+        "file": ".dumi/tmp/core/helmetContext.ts",
+        "hash": "4723146891641808483"
+      },
+      {
+        "file": ".dumi/tmp/core/history.ts",
+        "hash": "10861959308270646551"
+      },
+      {
+        "file": ".dumi/tmp/core/historyIntelli.ts",
+        "hash": "15906005519870883524"
+      },
+      {
+        "file": ".dumi/tmp/core/plugin.ts",
+        "hash": "17287955119340846647"
+      },
+      {
+        "file": ".dumi/tmp/core/pluginConfig.ts",
+        "hash": "846529141728487907"
+      },
+      {
+        "file": ".dumi/tmp/core/pluginConfigJoi.d.ts",
+        "hash": "10556567478599857514"
+      },
+      {
+        "file": ".dumi/tmp/core/polyfill.ts",
+        "hash": "5241456221089351696"
+      },
+      {
+        "file": ".dumi/tmp/core/route.tsx",
+        "hash": "13415079142106988767"
+      },
+      {
+        "file": ".dumi/tmp/core/terminal.ts",
+        "hash": "2523720284574303671"
+      },
+      {
+        "file": ".dumi/tmp/dumi/exports.ts",
+        "hash": "8744199396055619892"
+      },
+      {
+        "file": ".dumi/tmp/dumi/locales/config.ts",
+        "hash": "15567422917709210995"
+      },
+      {
+        "file": ".dumi/tmp/dumi/locales/runtime.tsx",
+        "hash": "3013852820531575857"
+      },
+      {
+        "file": ".dumi/tmp/dumi/meta/atoms.ts",
+        "hash": "13520063225699770614"
+      },
+      {
+        "file": ".dumi/tmp/dumi/meta/exports.ts",
+        "hash": "613320066397472689"
+      },
+      {
+        "file": ".dumi/tmp/dumi/meta/index.ts",
+        "hash": "15491475155781995806"
+      },
+      {
+        "file": ".dumi/tmp/dumi/meta/runtime.ts",
+        "hash": "9499394876646208432"
+      },
+      {
+        "file": ".dumi/tmp/dumi/meta/tabs.ts",
+        "hash": "11759096159489707627"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/ContextWrapper.tsx",
+        "hash": "15560775447467270075"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/API.ts",
+        "hash": "6995468988121237173"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/Badge.ts",
+        "hash": "9442123597582499562"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/CodeGroup.ts",
+        "hash": "11630696479443715441"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/Container.ts",
+        "hash": "2390468070083944372"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/Previewer.ts",
+        "hash": "6333411248144350021"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/SourceCode.ts",
+        "hash": "12914279533407480571"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/Table.ts",
+        "hash": "469420354230949843"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/builtins/Tree.ts",
+        "hash": "9047483448963207301"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/layouts/DocLayout.ts",
+        "hash": "4577664079100380709"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/loading.tsx",
+        "hash": "4339828090119501063"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/nprogress.css",
+        "hash": "16992803472149459201"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/ColorSwitch.ts",
+        "hash": "11064403782036325120"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Content.ts",
+        "hash": "831006703227206556"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/ContentFooter.ts",
+        "hash": "9824076850904235733"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/ContentTabs.ts",
+        "hash": "13134977891316624925"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Features.ts",
+        "hash": "16483613150187192035"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Footer.ts",
+        "hash": "13386597227042549334"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Header.ts",
+        "hash": "3526772279195693186"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/HeaderExtra.ts",
+        "hash": "6070912187904336834"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Hero.ts",
+        "hash": "12556132509309149095"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/HeroTitle.ts",
+        "hash": "10761148775604770558"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/LangSwitch.ts",
+        "hash": "11700240845203851812"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Loading.ts",
+        "hash": "15464089844462549147"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Logo.ts",
+        "hash": "9722413716876624497"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Navbar.ts",
+        "hash": "486021556703355464"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/NavbarExtra.ts",
+        "hash": "3239364189150257977"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/NotFound.ts",
+        "hash": "3509743677516349587"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/PreviewerActions.ts",
+        "hash": "3117242129020170390"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/PreviewerActionsExtra.ts",
+        "hash": "8246719599325165756"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/RtlSwitch.ts",
+        "hash": "2061086463106544338"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/SearchBar.ts",
+        "hash": "8301372099791865982"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/SearchResult.ts",
+        "hash": "5284678102386705614"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Sidebar.ts",
+        "hash": "13831937213976179900"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/SocialIcon.ts",
+        "hash": "5720711570925076221"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/SourceCodeEditor.ts",
+        "hash": "10712166979832416473"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Tabs.ts",
+        "hash": "2367102384277771666"
+      },
+      {
+        "file": ".dumi/tmp/dumi/theme/slots/Toc.ts",
+        "hash": "4164783251775757657"
+      },
+      {
+        "file": ".dumi/tmp/exports.ts",
+        "hash": "9551453526551099214"
+      },
+      {
+        "file": ".dumi/tmp/plugin-html2sketch/index.ts",
+        "hash": "5398238034965707858"
+      },
+      {
+        "file": ".dumi/tmp/testBrowser.tsx",
+        "hash": "9873359343829772080"
+      },
+      {
+        "file": ".dumi/tmp/umi.ts",
+        "hash": "8534118300905156641"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17046115416634824464"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "4343395581683203865"
+      },
+      {
+        "file": "README.md",
+        "hash": "11375443320282261918"
+      },
+      {
+        "file": "package.json",
+        "hash": "2865931926019598797"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "11475604512283290645"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "324862774530036549"
+      }
+    ]
+  }
+}
