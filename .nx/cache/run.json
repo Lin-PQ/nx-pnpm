@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx build @shared/ui",
-    "startTime": "2024-06-04T05:17:45.081Z",
-    "endTime": "2024-06-04T05:17:54.906Z",
+    "startTime": "2024-09-13T02:43:24.502Z",
+    "endTime": "2024-09-13T02:44:17.184Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@shared/ui:build",
       "target": "build",
       "projectName": "@shared/ui",
-      "hash": "2527061773092102256",
-      "startTime": "2024-06-04T05:17:45.096Z",
-      "endTime": "2024-06-04T05:17:54.906Z",
+      "hash": "936675229647939789",
+      "startTime": "2024-09-13T02:43:24.510Z",
+      "endTime": "2024-09-13T02:44:17.183Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

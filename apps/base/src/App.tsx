@@ -1,10 +1,11 @@
 import "./App.css";
-import { Foo } from "@shared/ui";
+import { SharedFoo } from "@shared/ui";
+
 function App() {
   return (
     <>
       33
-      <Foo title="999" />
+      <SharedFoo title="999" />
     </>
   );
 }

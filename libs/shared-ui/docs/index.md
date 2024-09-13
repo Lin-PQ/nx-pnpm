@@ -1,12 +1,12 @@
 ---
 hero:
   title: library
-  description: UI组件
+  description: UI组件,基于Antd封装
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: 导航
+      link: /guide
+    - text: 组件
+      link: /components/foo
 features:
   - title: Hello
     emoji: 💎
